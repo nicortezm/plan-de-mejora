@@ -1,14 +1,14 @@
 <template>
-    <h1> Registrar Mangas</h1>
+
 
     <form @submit="sendForm">
-        <label for="">Nombre Manga</label>
+        <label for="">Nombre Manga &nbsp; </label>
         <input type="text" v-model="manga.nombre">
         <br>
-        <label for="">Nombre Autor</label>
+        <label for="">Nombre Autor &nbsp; </label>
         <input type="text" v-model="manga.autor">
         <br>
-        <label for="">Cantidad volumenes</label>
+        <label for="">Cantidad volumenes &nbsp; </label>
         <input type="number" v-model="manga.volumenes">
 
         <input type="submit" value="Enviar">
